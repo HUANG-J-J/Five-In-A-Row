@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/86151/desktop/数据结构/五子棋/五子棋/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "d3af2b232020c11279e507b354cf7b23b15ee1e0050108102d3628dd96ab9f82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/86151/desktop/数据结构/五子棋/五子棋/function.h"
+          },
+          "hashes": {
+            "sha-256": "0a22419fec55df9a9d7227a0c5bd8c8e6be424c7276632e034a7113fc433c09a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/microsoft visual studio/2022/community/vc/auxiliary/vs/include/easyx.h"
+          },
+          "hashes": {
+            "sha-256": "4191c00c18579aa242a4c2cdcbdf37b8d0558f8356360dddf31f6ba7b9bcd47e"
+          }
+        }
+      ]
+    }
+  ]
+}
